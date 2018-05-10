@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Ecran connexion</title>
+    <meta content="width=device-width,initial-scale=1" name="viewport">
+    <link href="css/normalize.css" rel="stylesheet" type="text/css">
+    <link href="css/webflow.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+    <link href="css/ionicons.min.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <section class="mobile-wrapper">
+        <div class="w-embed"></div>
+        <div class="arriereplan-gradient page-content" data-scroll="0" id="main-stack">
+            <div class="body padding">
+                <div class="logo-connexion"></div>
+                <div class="bottom-section padding">
+                    <div class="w-form">
+                        <form action="messages.html" data-name="Email Form" data-redirect="messages.html" id="submit-form" name="email-form">
+                            <div>
+                                <input class="input-form light w-input" data-name="email" id="email-field" maxlength="256" name="email" placeholder="" required="required" type="email" value="dredev@yahoo.com">
+                                <div class="separator-fields"></div>
+                            </div>
+                            <div>
+                                <div class="block-input-combined">
+                                    <input class="input-form left light w-input" data-name="password" id="password-field" maxlength="256" name="password" placeholder="Mot de passe" required="required" type="password" value="123456"><a class="right-input-link"
+                                        data-load="1" href="mdp-oublie.html">Mot de passe oublie ?</a></div>
+                                <div class="separator-button-input"></div>
+                            </div>
+                            <input class="action-button w-button" data-wait="Patientez svp ..." type="submit" value="Connexion">
+                            <div class="separator-button"></div><a class="link-upper" data-load="1" href="inscription.html">Vous n'avez pas de compte ? <strong class="b-link">Inscrivez-vous</strong></a></form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="chargement-logo page-content" id="new-stack">
+            <div class="loading-icon">
+                <div class="icon ion-load-d navbar-button-icon"></div>
+            </div>
+        </div>
+    </section>
+    <script src="js/modernizr.js" type="text/javascript"></script>
+    <script src="js/jquery.min.js" type="text/javascript"></script>
+    <script src="js/webflow.js" type="text/javascript"></script>
+    <script type="text/javascript" src="js/scripts.js"></script>
+</body>
+
+</html>

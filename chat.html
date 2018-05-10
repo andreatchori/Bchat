@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Ecran Tchat</title>
+    <meta content="width=device-width,initial-scale=1" name="viewport">
+    <meta name="generator" content="SensationThemes">
+    <link href="css/normalize.css" rel="stylesheet" type="text/css">
+    <link href="css/webflow.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+    <link href="css/ionicons.min.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <section class="mobile-wrapper">
+        <div class="w-embed"></div>
+        <div class="page-content" id="main-stack">
+            <div class="navbar w-nav" data-animation="default" data-collapse="all" data-duration="700">
+                <div class="w-container">
+                    <div class="wrapper-mask" data-ix="menu-mask"></div>
+                    <div class="navbar-title">Chat</div>
+                    <a class="navbar-button w-inline-block" data-load="1" href="messages.html">
+                        <div class="icon ion-ios-arrow-thin-left navbar-button-icon"></div>
+                    </a>
+                    <a class="navbar-button right" href="#">
+                        <div class="icon ion-android-call navbar-button-icon calling"></div>
+                    </a>
+
+                </div>
+            </div>
+            <div class="body">
+                <ul class="list list-chats">
+                    <li class="list-chat w-clearfix" data-ix="list-item">
+                        <div class="chat column-left">
+                            <div class="chat image-message"><img src="images/profile-utilisateur/avatar.jpg"></div>
+                        </div>
+                        <div class="chat column-right w-clearfix">
+                            <div class="arrow-globe"></div>
+                            <div class="chat-text">Hey, tu as telecharge mon template Bchat?</div>
+                            <div class="chat-time">Il y'a 3 min</div>
+                        </div>
+                    </li>
+                    <li class="list-chat right" data-ix="list-item">
+                        <div class="chat column-right right w-clearfix">
+                            <div class="arrow-globe right"></div>
+                            <div class="chat-text right">Quoi , le template de chat là ?</div>
+                            <div class="chat-time right">Il y'a 3 min</div>
+                        </div>
+                    </li>
+                    <li class="list-chat w-clearfix" data-ix="list-item">
+                        <div class="chat column-left">
+                            <div class="chat image-message"><img src="images/profile-utilisateur/avatar.jpg"></div>
+                        </div>
+                        <div class="chat column-right w-clearfix">
+                            <div class="arrow-globe"></div>
+                            <div class="chat-text">Oui Oui</div>
+                            <div class="chat-time">Il y'a 1 min</div>
+                        </div>
+                    </li>
+                    <li class="list-chat right" data-ix="list-item">
+                        <div class="chat column-right right w-clearfix">
+                            <div class="arrow-globe right"></div>
+                            <div class="chat-text right">Oui je l'ai, il est genial putain</div>
+                            <div class="chat-time right">Il y'a 50 sec</div>
+                        </div>
+                    </li>
+                    <li class="list-chat w-clearfix" data-ix="list-item">
+                        <div class="chat column-left">
+                            <div class="chat image-message"><img src="images/profile-utilisateur/avatar.jpg"></div>
+                        </div>
+                        <div class="chat column-right w-clearfix">
+                            <div class="arrow-globe"></div>
+                            <div class="chat-text">Partage le alors ;)</div>
+                            <div class="chat-time">Il y'a 30 sec</div>
+                        </div>
+                    </li>
+                    <li class="list-chat right" data-ix="list-item">
+                        <div class="chat column-right right w-clearfix">
+                            <div class="arrow-globe right"></div>
+                            <div class="chat-text right">Tkt pas je le ferai ! Bon travail Dre</div>
+                            <div class="chat-time right">Maintenant</div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="input-chat-block">
+                <div class="w-form">
+                    <form action="#" class="w-clearfix" data-name="" id="" name="">
+                        <input class="input-chat w-input" data-name="" id="chat-message" maxlength="256" name="email" placeholder="Votre message" required="required" type="text">
+                        <input class="chat-button w-button" data-wait="Patientez..." type="submit" value="Envoyer">
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="chargement-logo page-content" id="new-stack">
+            <div class="loading-icon">
+                <div class="icon ion-load-d navbar-button-icon"></div>
+            </div>
+        </div>
+    </section>
+    <script src="js/modernizr.js" type="text/javascript"></script>
+    <script src="js/jquery.min.js" type="text/javascript"></script>
+    <script src="js/webflow.js" type="text/javascript"></script>
+    <script type="text/javascript" src="js/scripts.js"></script>
+</body>
+
+</html>
